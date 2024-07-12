@@ -2,12 +2,32 @@
     background-color: #1b1b1b;
     font-family: Helvetica, "Times New Roman", sans-serif;
     color: white;
-    margin-left: 10px;
-    margin-right: 10px;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    margin: 0;
 }
 
 .recipe-list {
     font-size: 24px;
+    border: solid rgb(0, 129, 0) 5px;
+}
+
+.recipe-box {
+    display: inline-block;
+    border: solid #fff 1px;
+    margin: 8px;
+    padding: 8px;
 }
 
 h1 {
